@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		882B3A481EF09C9300090343 /* customeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882B3A471EF09C9300090343 /* customeCell.swift */; };
+		882B3A481EF09C9300090343 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882B3A471EF09C9300090343 /* customCell.swift */; };
 		88F7F5701EB69F9300FC0047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7F56F1EB69F9300FC0047 /* AppDelegate.swift */; };
 		88F7F5721EB69F9300FC0047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7F5711EB69F9300FC0047 /* ViewController.swift */; };
 		88F7F5751EB69F9300FC0047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F7F5731EB69F9300FC0047 /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		42177D54ECBB02A1400387E4 /* Pods_USPS_Calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USPS_Calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		882B3A471EF09C9300090343 /* customeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customeCell.swift; path = ../customeCell.swift; sourceTree = "<group>"; };
+		882B3A471EF09C9300090343 /* customCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customCell.swift; path = ../customCell.swift; sourceTree = "<group>"; };
 		88F7F56C1EB69F9300FC0047 /* USPS Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USPS Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F7F56F1EB69F9300FC0047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88F7F5711EB69F9300FC0047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			children = (
 				88F7F56F1EB69F9300FC0047 /* AppDelegate.swift */,
 				88F7F5711EB69F9300FC0047 /* ViewController.swift */,
-				882B3A471EF09C9300090343 /* customeCell.swift */,
+				882B3A471EF09C9300090343 /* customCell.swift */,
 				88F7F5731EB69F9300FC0047 /* Main.storyboard */,
 				88F7F5761EB69F9300FC0047 /* Assets.xcassets */,
 				88F7F5781EB69F9300FC0047 /* LaunchScreen.storyboard */,
@@ -214,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				882B3A481EF09C9300090343 /* customeCell.swift in Sources */,
+				882B3A481EF09C9300090343 /* customCell.swift in Sources */,
 				88F7F5721EB69F9300FC0047 /* ViewController.swift in Sources */,
 				88F7F5701EB69F9300FC0047 /* AppDelegate.swift in Sources */,
 			);

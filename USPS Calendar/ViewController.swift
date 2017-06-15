@@ -12,6 +12,8 @@ import JTAppleCalendar
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource
 {
 
+  let formatter = DateFormatter()
+  
   @IBOutlet weak var colorViewPicker: UIPickerView!
   
   let colors = ["Green", "Blue", "Yellow", "Black"]
@@ -48,5 +50,23 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
+  
+  extension ViewController: JTAppleCalendarViewDelegate, JTAppleCalendarViewDataSource
+  {
+    func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters
+    {
+      formatter.dateFormat = "yyy MM dd"
+      formatter.timeZone = Calendar.current.timeZone
+      formatter.locale = Calendar.current.locale
+      
+      let startDate = formatter.date (from:"2017 01 01")
+      let endDate = formatter.date(from: "2017 12 31")
+      
+      
+      let parameters = ConfigurationParameters(startDate: <#T##Date#>, endDate: <#T##Date#>)
+      return parameters
+    }
+  }
+  
 }
 
